@@ -36,7 +36,7 @@ header::after {
 h2 {
 	float: left;
 	background-color: #4aaaa5;
-	color: white;
+	color: #ffffff;
 	margin: 0;
 	padding: 20px;
 }
@@ -76,6 +76,15 @@ article {
 	overflow: auto;
 }
 
+.portfolio {
+	background-color: #ffffff;
+	width: 650px;
+	height: 850px;
+	margin: 50px 0px 50px 0px;
+	padding-bottom: 25px;
+	overflow: hidden;
+}
+
 h3 {
 	color: #4aaaa5;
 	margin: 20px 20px 20px 20px;
@@ -113,6 +122,11 @@ h4 {
 	height: 50px;
 }
 
+.me {
+	width: 200px;
+	height: 150px;
+}
+
 form {
 	margin-left: 20px;
 	color: #777777;
@@ -135,6 +149,91 @@ textarea {
 	color: #ffffff;
 	font-size: 15px;
 	padding: 15px;
+}
+
+.projects {
+	width: 280px;
+	height: 200px;
+	padding-bottom: 50px;
+}
+
+.rpg {
+	position: relative;
+	left: 325px;
+	bottom: 294px;	
+}
+
+.trivia {
+	position: relative;
+	bottom: 350px;
+}
+
+.widget {
+	position: relative;
+	left: 325px;
+	bottom: 644px;	
+}
+
+.rps {
+	position: relative;
+	bottom: 700px;
+}
+
+#hangman {
+	position: relative;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	width: 280px;
+	top: 175px;
+	z-index: 2;
+}
+
+#rpggames {
+	position: relative;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	width: 280px;
+	left: 325px;
+	bottom: 119px;
+	z-index: 2;
+}
+
+#trivia {
+	position: relative;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	width: 280px;
+	bottom: 175px;
+	z-index: 2;
+}
+
+#widget {
+	position: relative;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	width: 280px;
+	left: 325px;
+	bottom: 469px;
+	z-index: 2;
+}
+
+#rps {
+	position: relative;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	width: 280px;
+	bottom: 525px;
+	z-index: 2;
 }
 
 footer {
