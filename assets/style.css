@@ -1,0 +1,73 @@
+body {
+	font: "Georgia",Times New Roman,Times,serif;
+	font-color: #333333;
+	margin: 0;
+}
+
+.navbar {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 960px;
+	margin: 0 auto;	
+}
+
+header {
+	background: #ffffff;
+	border-bottom: solid #cccccc;
+}
+
+header::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+h2 {
+	float: left;
+	background-color: #4aaaa5;
+	color: white;
+	margin: 0;
+	padding: 20px;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 20px;
+	margin-left: 35px;
+	padding-top: 20px;
+}
+
+nav a {
+	color: #777777;
+	text-decoration: none;
+}
+
+/*header {
+	float: left;
+	background-color: #4aaaa5;
+	color: white;
+  font-size: 30px;
+  margin: 0px 0px 0px 150px;
+  width: 960px;
+  padding: 30px;
+  border-bottom: solid #cccccc;
+  border-width: 100%
+}*/
+
+/*nav {
+	float: left;
+	background-color: #ffffff;
+	color: #777777;
+	font-size: 20px;
+	width: 270px;
+	padding: 35px;
+}*/
