@@ -81,6 +81,7 @@ h3 {
 	margin: 20px 20px 20px 20px;
 	padding-bottom: 20px;
 	border-bottom: solid #dddddd;
+	font-size: 30px;
 }
 
 img {
@@ -108,6 +109,32 @@ h4 {
 
 .icon {
 	margin: 0px 5px 0px 5px;
+	width: 50px; 
+	height: 50px;
+}
+
+form {
+	margin-left: 20px;
+	color: #777777;
+}
+
+input {
+	width: 600px;
+}
+
+textarea {
+	width: 600px;
+	max-width: 600px;
+	height: 200px;
+}
+
+.btn {
+	width: 100px;
+	border: none;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 15px;
 }
 
 footer {
